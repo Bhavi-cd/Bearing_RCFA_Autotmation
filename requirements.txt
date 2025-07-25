@@ -1,3 +1,4 @@
+# --- Backend (API, Gemini, etc.) ---
 fastapi==0.104.1
 uvicorn==0.24.0
 pydantic==2.5.0
@@ -5,6 +6,7 @@ pydantic-settings==2.1.0
 python-multipart==0.0.6
 python-dotenv==1.0.0
 aiofiles==23.2.1
+aiohttp==3.9.1
 
 # Google Generative AI for Gemini
 google-generativeai==0.3.2
@@ -12,5 +14,12 @@ google-generativeai==0.3.2
 # Image Processing
 Pillow==10.1.0
 
-# HTTP client for testing
-aiohttp==3.9.1
+# --- Frontend (Streamlit App) ---
+streamlit>=1.25.0
+requests>=2.28.0
+
+# --- Testing (if you use pytest or similar, add here) ---
+# pytest
+
+# --- (Optional) For Enum and typing (standard library, but safe to include for some environments) ---
+typing-extensions>=4.0.0
