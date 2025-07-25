@@ -45,7 +45,6 @@ colorama==0.4.4
 coloredlogs==15.0.1
 contourpy==1.2.1
 cryptography==41.0.4
-cupshelpers==1.0
 cycler==0.12.1
 dbus-python==1.2.18
 defer==1.0.6
